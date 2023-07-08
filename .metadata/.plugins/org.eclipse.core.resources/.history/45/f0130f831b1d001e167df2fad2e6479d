@@ -1,0 +1,10 @@
+package operadoresBasicos;
+
+public class ExercicioUsuarioeSenha{
+	
+	Exercicio1 ex = new Exercicio1();
+	
+	
+
+
+}
