@@ -1,0 +1,55 @@
+package atividadesPOO;
+
+public class Pessoa {
+
+	private String nome;
+	private int idade;
+	private int diaDeNascimento;
+	private int anoDeNascimento;
+	
+	
+	public Pessoa() {
+		
+	}
+	
+	public Pessoa(String nome, int idade, int diaDeNascimento, int anoDeNascimento) {
+		this.nome = nome;
+		this.idade = idade;
+		this.diaDeNascimento = diaDeNascimento;
+		this.anoDeNascimento = anoDeNascimento;
+	}
+
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	
+	public int getDiaDeNascimento() {
+		return diaDeNascimento;
+	}
+	public void setDiaDeNascimento(int diaDeNascimento) {
+		this.diaDeNascimento = diaDeNascimento;
+	}
+	
+	public int getAnoDeNascimento() {
+		return anoDeNascimento;
+	}
+	public void setAnoDeNascimento(int anoDeNascimento) {
+		this.anoDeNascimento = anoDeNascimento;
+	}
+
+	
+	
+	
+	
+}

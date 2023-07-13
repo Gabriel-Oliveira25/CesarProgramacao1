@@ -1,0 +1,5 @@
+package CesarPOO.atividade01;
+
+public interface AcoesGerais {
+
+}

@@ -1,0 +1,15 @@
+package CesarPOO.atividade01;
+
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Pessoa gabriel = new Pessoa();
+		
+		gabriel.setDiaDeNascimento(04);
+		
+		System.out.println(gabriel.calcularIdade());
+	}
+	
+
+}

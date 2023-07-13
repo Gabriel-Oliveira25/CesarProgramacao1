@@ -23,7 +23,7 @@ public class Comparacao {
 	    int x = 1;
 	    int y = 5;
 	    int z = 3;
-
+	    
 	    if (x <= y && x <= z) {
 	        System.out.print(x + " ");
 	        if (y <= z) {

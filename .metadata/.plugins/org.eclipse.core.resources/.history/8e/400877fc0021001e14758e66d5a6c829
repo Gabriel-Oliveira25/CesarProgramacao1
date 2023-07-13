@@ -1,0 +1,8 @@
+package CesarPOO.atividade01;
+
+public abstract class AcoesPessoa {
+	
+	 void comer() {
+		
+	}
+}
