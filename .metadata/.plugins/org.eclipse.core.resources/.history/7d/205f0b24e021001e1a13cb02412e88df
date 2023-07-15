@@ -1,4 +1,4 @@
-
+package CesarPOO.atividade01;
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -7,6 +7,7 @@ public class Pessoa {
 
 	private String nome;
 	private int idade;
+	
 	private int anoDeNascimento;
 	private int mesDeNascimento;
 	private int diaDeNascimento;

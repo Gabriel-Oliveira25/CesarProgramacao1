@@ -1,0 +1,10 @@
+package CesarPOO.atividade02;
+
+public class Pessoa {
+
+	String nome;
+	private Universidade universidade;
+	
+	
+	
+}

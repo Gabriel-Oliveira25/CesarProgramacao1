@@ -1,4 +1,4 @@
-
+package CesarPOO.atividade01;
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -7,6 +7,7 @@ public class Pessoa {
 
 	private String nome;
 	private int idade;
+	
 	private int anoDeNascimento;
 	private int mesDeNascimento;
 	private int diaDeNascimento;
@@ -17,8 +18,9 @@ public class Pessoa {
 		
 	}
 	
-	public Pessoa(String nome, int diaDeNascimento, int anoDeNascimento) {
+	public Pessoa(String nome, int idade, int diaDeNascimento, int anoDeNascimento) {
 		this.nome = nome;
+		this.idade = idade;
 		this.diaDeNascimento = diaDeNascimento;
 		this.anoDeNascimento = anoDeNascimento;
 	}

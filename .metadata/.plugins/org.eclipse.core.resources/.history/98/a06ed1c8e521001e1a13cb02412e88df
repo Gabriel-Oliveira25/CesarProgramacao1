@@ -1,0 +1,17 @@
+package CesarPOO.atividade02;
+
+public class Pessoa {
+
+	private String nome;
+	private Universidade universidade;
+	
+	public Universidade getUniversidade() {
+		return universidade;
+	}
+	public void setUniversidade(Universidade universidade) {
+		this.universidade = universidade;
+	}
+	
+	
+	
+}
