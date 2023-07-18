@@ -1,4 +1,4 @@
-package atividade02;
+package CesarPOO.atividade02;
 
 public class Universidade {
     //NOME E MÉTODO PRA RETORNAR O NOME

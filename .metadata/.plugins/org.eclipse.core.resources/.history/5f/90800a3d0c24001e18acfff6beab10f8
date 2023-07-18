@@ -1,0 +1,17 @@
+package CesarPOO.atividade03;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> lista = new ArrayList<Integer>(50);
+		
+		for (int c = 0;c<lista.size();c++) {
+			lista.get(c);
+		}
+		
+
+	}
+
+}
