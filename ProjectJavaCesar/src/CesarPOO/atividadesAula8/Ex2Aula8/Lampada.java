@@ -1,4 +1,4 @@
-package atividadeEx2Aula8;
+package atividade.Ex2Aula8;
 
 public class Lampada {
     private boolean status;

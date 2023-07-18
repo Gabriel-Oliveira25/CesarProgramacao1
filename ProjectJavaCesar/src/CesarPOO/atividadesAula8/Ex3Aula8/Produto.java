@@ -1,4 +1,4 @@
-package atividadeEx3Aula8;
+package atividade.Ex3Aula8;
 
 public class Produto{
 
