@@ -1,0 +1,20 @@
+package cesarPOO.atividadesAula10.ex02;
+
+public class Transacao {
+	private double valor;
+	private Cliente cliente;
+
+	public Transacao() {
+		
+	}
+
+	public double getValor() {
+		return valor;
+	}
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+	
+	
+}

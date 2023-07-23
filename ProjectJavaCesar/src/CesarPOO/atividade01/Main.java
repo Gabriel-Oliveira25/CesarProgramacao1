@@ -1,4 +1,4 @@
-package CesarPOO.atividade01;
+package cesarPOO.atividade01;
 
 public class Main {
 	public static void main(String[] args) {

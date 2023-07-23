@@ -1,4 +1,4 @@
-package CesarPOO.atividade02;
+package cesarPOO.atividade02;
 
 public class Pessoa {
     int idade;

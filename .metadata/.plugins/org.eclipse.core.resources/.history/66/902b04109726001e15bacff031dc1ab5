@@ -1,0 +1,24 @@
+package cesarPOO.atividadesAula10.ex02;
+
+
+public class Calendario {
+	private Banco banco;
+
+	public Calendario() {
+	}
+	
+	public Calendario(Banco banco) {
+		this.banco = banco;
+	}
+
+	public Banco getBanco() {
+		return banco;
+	}
+
+	public void setBanco(Banco banco) {
+		this.banco = banco;
+	}
+	
+	
+	
+}

@@ -1,4 +1,4 @@
-package CesarPOO.atividade03;
+package cesarPOO.atividade03;
 
 public class Departamento {
 

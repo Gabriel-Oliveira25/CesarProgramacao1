@@ -1,0 +1,35 @@
+package cesarPOO.atividadesAula9.Ex1;
+
+public class Vendedor extends Funcionario{
+	
+	private double vendas;
+	
+	public Vendedor() {
+	}
+	
+	public double getVendas() {
+		return vendas;
+	}
+
+
+	public void setVendas(double vendas) {
+		this.vendas = vendas;
+	}
+	
+	
+	public void comissao() {
+		
+		double salario = getSalario();
+		
+		setVendas(vendas * 0.05);
+		
+		setSalario(vendas + salario);
+		
+	
+	}
+
+
+
+
+
+}

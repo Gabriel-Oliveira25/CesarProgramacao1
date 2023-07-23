@@ -1,4 +1,4 @@
-package CesarPOO.atividade01;
+package cesarPOO.atividade01;
 
 import java.time.LocalDate;
 import java.time.Period;

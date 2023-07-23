@@ -1,0 +1,11 @@
+package cesarPOO.atividadesAula10.ex02;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Banco b1 = new Banco("Banco Next", "Rua da Uva", new Cliente("Gabriel", "Rua da Laranja", new Banco()), new Transacao(500, new Cliente(), new Banco()), new Calendario());
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package cesarPOO.atividadesAula9.Ex1;
+
+public class Vendedor extends Funcionario{
+	
+	public Vendedor() {
+		super();
+	}
+	
+	
+	public double comissao() {
+		
+		
+		
+		return 0.0;
+	}
+}
