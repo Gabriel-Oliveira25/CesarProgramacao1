@@ -1,0 +1,9 @@
+package cesarPOO.atividadesAula12;
+
+public class RelatorioCargos {
+	
+	public void relatorio(Cargo cargos) {
+		
+	}
+
+}

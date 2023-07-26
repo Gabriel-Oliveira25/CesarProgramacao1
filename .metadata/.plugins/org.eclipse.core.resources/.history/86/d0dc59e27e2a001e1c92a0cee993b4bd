@@ -1,0 +1,13 @@
+package cesarPOO.atividadesAula12;
+
+public class DiretorEstatutario extends Diretor {
+	private double percentualLucro;
+
+	public double getPercentualLucro() {
+		return percentualLucro;
+	}
+
+	public void setPercentualLucro(double percentualLucro) {
+		this.percentualLucro = percentualLucro;
+	} 
+}

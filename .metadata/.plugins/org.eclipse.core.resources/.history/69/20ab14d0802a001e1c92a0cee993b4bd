@@ -1,0 +1,11 @@
+package cesarPOO.atividadesAula12;
+
+public class RelatorioCargos {
+	
+	public void relatorio(Cargo cargos) {
+		System.out.println("nome: ");
+		System.out.println("salario: ");
+		
+	}
+
+}

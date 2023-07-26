@@ -1,0 +1,14 @@
+package cesarPOO.atividadesAula12;
+
+public class ProgramaCargo1 {
+
+	public static void main(String[] args) {
+		Cargo c1 = new Diretor();
+		DiretorEstatutario de1 = c1;
+		Diretor d2 = new DiretorEstatutario();
+		Cargo c2 = new Gerente();
+		Diretor d3 = new Gerente();
+		DiretorEstatutario = c2;
+	}
+
+}

@@ -1,0 +1,13 @@
+package cesarPOO.atividadesAula12;
+
+public class Gerente extends Cargo {
+	private double percentualBonus;
+
+	public double getPercentualBonus() {
+		return percentualBonus;
+	}
+
+	public void setPercentualBonus(double percentualBonus) {
+		this.percentualBonus = percentualBonus;
+	} 
+}
