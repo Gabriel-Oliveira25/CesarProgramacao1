@@ -4,7 +4,23 @@ public class Lampada {
     private boolean status;
     private int watts;
 
-    public Lampada(boolean status){
+    public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+	public int getWatts() {
+		return watts;
+	}
+
+	public void setWatts(int watts) {
+		this.watts = watts;
+	}
+
+	public Lampada(boolean status){
         this.status = status;
     }
 

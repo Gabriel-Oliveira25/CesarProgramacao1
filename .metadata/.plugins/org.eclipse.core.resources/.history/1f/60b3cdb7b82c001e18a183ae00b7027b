@@ -1,0 +1,41 @@
+package cesarPOO.atividade03;
+
+public class University extends Object{
+	private String nome;
+
+	
+	public University() {
+		
+	}
+	
+	public University(String nome) {
+		this.nome = nome;
+
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return nome;
+	}
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		University university = (University)obj;
+
+		return this == university;
+    }
+
+
+
+}

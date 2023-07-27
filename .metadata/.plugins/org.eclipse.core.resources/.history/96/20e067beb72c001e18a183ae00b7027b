@@ -1,0 +1,20 @@
+package cesarPOO.atividade03;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		University un = new University("Gabriel", "Oliveira");
+		University un1 = new University("Gabriel", "Oliveira");
+		
+		un.teste();
+		un1.teste();
+		
+		System.out.println(un);
+
+		
+		
+
+	}
+}

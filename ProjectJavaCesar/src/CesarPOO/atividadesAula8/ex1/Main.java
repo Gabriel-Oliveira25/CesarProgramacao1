@@ -11,5 +11,7 @@ public class Main {
 		System.out.println(f1.getCaroco());
 		f1.setCaroco(1);
 		System.out.println(f1.getCaroco());
+		
+		f2.getCaroco();
 	}
 }

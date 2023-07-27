@@ -1,0 +1,20 @@
+package cesarPOO.atividade03;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		University un = new University("Gabriel");
+		University un1 = new University("Gabriel");
+		
+		if (un == un1) {
+			System.out.println("Hello");
+		}
+		
+		System.out.println(un.equals(un1));
+		
+		
+
+	}
+}

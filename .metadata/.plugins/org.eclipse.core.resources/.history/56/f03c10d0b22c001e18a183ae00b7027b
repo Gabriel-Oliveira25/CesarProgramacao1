@@ -1,0 +1,16 @@
+package cesarPOO.atividade03;
+
+public class Universidade extends Object{
+	private String nome;
+	
+	public Universidade() {
+		
+	}
+	
+	public Universidade(String nome) {
+		this.nome = nome;
+	}
+	
+	
+
+}
