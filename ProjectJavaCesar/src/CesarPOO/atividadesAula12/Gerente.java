@@ -25,4 +25,9 @@ public class Gerente extends Cargo {
 	public void setPercentualBonus(double percentualBonus) {
 		this.percentualBonus = percentualBonus;
 	} 
+	
+	@Override
+	public double rendimentoTotal() {
+		return super.getSalarioBase() + super.getSalarioBase() * percentualBonus / 100;
+	}
 }

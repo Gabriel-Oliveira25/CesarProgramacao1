@@ -25,4 +25,11 @@ public class DiretorEstatutario extends Diretor {
 	public void setPercentualLucro(double percentualLucro) {
 		this.percentualLucro = percentualLucro;
 	} 
+	
+	@Override
+	public double rendimentoTotal() {
+		double rendimentoDiretor = super.rendimentoTotal();
+		return rendimentoDiretor + rendimentoDiretor * percentualLucro/100;
+	}
+	
 }

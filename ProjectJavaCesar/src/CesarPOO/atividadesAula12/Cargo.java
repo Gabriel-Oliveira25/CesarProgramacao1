@@ -22,4 +22,8 @@ public class Cargo {
 	public void setSalarioBase(double salarioBase) {
 		this.salarioBase = salarioBase;
 	} 
+	
+	public double rendimentoTotal() {
+		return 0.0;
+	}
 }
