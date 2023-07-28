@@ -1,0 +1,13 @@
+package cesarPOO.atividadesAula15;
+
+public abstract class Quadrilatero {
+	private double lado;
+	private double altura;
+
+	public abstract double calcularArea();
+	
+	public abstract double calcularPerimetro();
+	
+	
+	
+}

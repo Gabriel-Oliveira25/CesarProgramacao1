@@ -1,0 +1,7 @@
+package cesarPOO.atividadesAula9.ex1;
+
+public class Administrativo extends Funcionario{
+	
+	
+
+}

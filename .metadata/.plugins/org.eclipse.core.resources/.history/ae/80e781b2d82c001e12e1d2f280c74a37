@@ -1,0 +1,44 @@
+package cesarPOO.atividadesAula15;
+
+public class Retangulo extends Quadrilatero{
+	private double lado;
+	private double altura;
+	
+	public Retangulo() {
+		
+	}
+	
+	public Retangulo(double lado, double altura) {
+		this.lado = lado;
+		this.setAltura(altura);
+	}
+	
+	public double getLado() {
+		return this.lado;
+	}
+	
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	@Override
+	public double calcularArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calcularPerimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+}

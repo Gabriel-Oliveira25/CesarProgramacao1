@@ -1,0 +1,32 @@
+package cesarPOO.atividadesAula15;
+
+public abstract class Quadrilatero {
+	private double lado;
+	private double altura;
+
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+			
+	public abstract double calcularArea();
+	
+	public abstract double calcularPerimetro();
+
+
+	
+	
+	
+	
+}
