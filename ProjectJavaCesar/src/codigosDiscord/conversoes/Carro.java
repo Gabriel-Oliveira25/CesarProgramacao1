@@ -1,0 +1,35 @@
+package codigosDiscord.conversoes;
+
+public class Carro extends MeioDeTransporte{
+	
+	private String marca;
+	private int capacidadeTanque;
+	
+	
+	
+	public Carro() {
+		
+	}
+	
+	public Carro(String nome, int velocidade, String marca, int capacidadeTanque) {
+		super(nome, velocidade);
+		this.marca = marca;
+		this.capacidadeTanque = capacidadeTanque;
+	}
+	public String getMarca() {
+		return marca;
+	}
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	public int getCapacidadeTanque() {
+		return capacidadeTanque;
+	}
+	public void setCapacidadeTanque(int capacidadeTanque) {
+		this.capacidadeTanque = capacidadeTanque;
+	}
+	
+	
+	
+
+}

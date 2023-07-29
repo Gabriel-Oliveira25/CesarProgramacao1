@@ -1,0 +1,33 @@
+package codigosDiscord.conversoes;
+
+public class MeioDeTransporte {
+	
+	private String nome;
+	private int velocidade;
+	
+	
+	public MeioDeTransporte() {
+		
+	}
+	
+	public MeioDeTransporte(String nome, int velocidade) {
+		this.nome = nome;
+		this.velocidade = velocidade;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getVelocidade() {
+		return velocidade;
+	}
+	public void setVelocidade(int velocidade) {
+		this.velocidade = velocidade;
+	}
+	
+	
+
+}

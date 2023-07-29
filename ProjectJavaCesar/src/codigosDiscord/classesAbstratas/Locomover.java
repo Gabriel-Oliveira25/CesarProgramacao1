@@ -1,0 +1,8 @@
+package codigosDiscord.classesAbstratas;
+
+public interface Locomover extends Comparable<Object>{
+	
+	public abstract void andando();
+	
+	
+}

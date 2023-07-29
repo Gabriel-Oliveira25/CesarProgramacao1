@@ -14,3 +14,6 @@
 1690504523437	Encapsulate field 'lado'
 1690504538854	Encapsulate field 'altura'
 1690657462456	Rename package 'CodigoDiscod'
+1690665698130	Rename package 'CodigoDiscord'
+1690665711247	Rename package 'codigosDiscord'
+1690665729728	Rename package 'codigosDiscord.conversoes.classesAbstratas'
