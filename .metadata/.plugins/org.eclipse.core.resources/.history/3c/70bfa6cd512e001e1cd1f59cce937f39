@@ -1,0 +1,12 @@
+package CodigoDiscord.classesAbstratas;
+
+import java.io.Serializable;
+
+public interface Locomover extends Comparable<Object>, Serializable{
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+package CodigoDiscord.classesAbstratas;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+
+		MeioDeTransporte meio = new MeioDeTransporte();
+
+	}
+
+}

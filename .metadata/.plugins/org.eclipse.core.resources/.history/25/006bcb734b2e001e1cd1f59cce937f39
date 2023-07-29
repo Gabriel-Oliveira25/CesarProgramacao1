@@ -1,0 +1,32 @@
+package CodigoDiscord;
+
+import java.util.ArrayList;
+
+public class Relatorio {
+	
+	public void relatorio(ArrayList<MeioDeTransporte> meioTransportes) {
+		
+		
+		for (MeioDeTransporte meioDeTransporte : meioTransportes) {
+
+			System.out.println("NOME: " + meioDeTransporte.getNome());
+			System.out.println("VELOCIDADE: " + meioDeTransporte.getVelocidade());
+			
+			
+			if (meioDeTransporte instanceof Cavalo) {
+				Cavalo cav = (Cavalo)meioDeTransporte;
+				System.out.println("RAÇA: " + cav.getRaça());
+			}
+			
+			
+			if (meioDeTransporte instanceof Carro) {
+				Carro car = (Carro)meioDeTransporte;
+				System.out.println("MARCA : " + car.getMarca());
+				System.out.println("RAÇA: " + car.getCapacidadeTanque());
+			}
+			System.out.println("-----------------------------------------------------");
+
+			
+		}
+	}
+}

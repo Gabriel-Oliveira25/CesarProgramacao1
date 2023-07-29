@@ -1,0 +1,19 @@
+package CodigoDiscord;
+
+public class Relatorio {
+	
+	public void relatorio(MeioDeTransporte[] meioTrans) {
+		
+		
+		
+		for (MeioDeTransporte meioDeTransporte : meioTrans) {
+			
+			System.out.println("NOME: " + meioDeTransporte.getNome());
+			System.out.println("VELOCIDADE: " + meioDeTransporte.getVelocidade());
+			
+			
+			
+			
+		}
+	}
+}

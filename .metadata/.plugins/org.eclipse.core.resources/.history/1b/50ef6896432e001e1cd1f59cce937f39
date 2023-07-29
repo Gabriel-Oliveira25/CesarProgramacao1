@@ -1,0 +1,8 @@
+package CodigoDiscord;
+
+public class Carro extends MeioDeTransporte{
+	
+	private String carca;
+	private int capacidadeTanque;
+
+}

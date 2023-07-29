@@ -1,0 +1,17 @@
+package CodigoDiscord;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		
+		MeioDeTransporte meioTrans = new Cavalo();
+		
+		MeioDeTransporte meioTrans2 = new Carro();
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package CodigoDiscord;
+
+public class CarroEletrico extends Carro{
+	
+	
+	
+	private int capacidadeBateria;
+	
+	
+	public CarroEletrico() {
+		
+	}
+	
+	
+	public CarroEletrico(String nome, int velocidade, String marca, int capacidadeTanque, int capacidadeBateria) {
+		super(nome, velocidade, marca, capacidadeTanque);
+		this.capacidadeBateria = capacidadeBateria;
+	}
+
+
+	public int getCapacidadeBateria() {
+		return capacidadeBateria;
+	}
+
+	public void setCapacidadeBateria(int capacidadeBateria) {
+		this.capacidadeBateria = capacidadeBateria;
+	}
+	
+	
+
+}

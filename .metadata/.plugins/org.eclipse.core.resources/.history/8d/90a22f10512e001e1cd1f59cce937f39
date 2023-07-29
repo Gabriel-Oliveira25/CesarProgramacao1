@@ -1,0 +1,55 @@
+package CodigoDiscord.classesAbstratas;
+
+
+public class Cavalo extends MeioDeTransporte{
+	
+	private String raça;
+	
+	
+	public Cavalo() {
+		
+	}
+	
+	public Cavalo(String nome, int velocidade, String raça) {
+		super(nome, velocidade);
+		this.raça = raça;
+
+	}
+	
+	public String getRaça() {
+		return raça;
+	}
+	public void setRaça(String raça) {
+		
+		this.raça = raça;
+	}
+	
+	
+	@Override
+	public void andar() {
+		System.out.println("ANDAR COM PATAS");
+	}
+	
+	@Override
+	public void relatorio() {
+		System.out.println("NOME: " + super.getNome());
+		System.out.println("NOME: " + super.getVelocidade());
+		System.out.println("RAÇA: " + this.raça);
+	}
+	
+	@Override
+	public String toString() {
+		return super.getNome() + "  ----  " + this.raça;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		Cavalo cav = (Cavalo)obj;
+		
+		if (this.getNome() == cav.getNome() && this.getRaça() == cav.getRaça()) {
+			return true;
+		}
+		return false;
+	}
+	
+}

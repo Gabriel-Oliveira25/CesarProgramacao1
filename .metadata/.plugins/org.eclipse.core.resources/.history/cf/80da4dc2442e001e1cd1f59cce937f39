@@ -1,0 +1,35 @@
+package CodigoDiscord;
+
+public class Cavalo extends MeioDeTransporte{
+	
+	private String raça;
+	private int velocidadeMax;
+	
+	
+	public Cavalo() {
+		
+	}
+	
+	public Cavalo(String nome, int velocidade, String raça, int velocidadeMax) {
+		super(nome, velocidade);
+		this.raça = raça;
+		this.velocidadeMax = velocidadeMax;
+	}
+	
+	public String getRaça() {
+		return raça;
+	}
+	public void setRaça(String raça) {
+		
+		this.raça = raça;
+	}
+	public int getVelocidadeMax() {
+		return velocidadeMax;
+	}
+	public void setVelocidadeMax(int velocidadeMax) {
+		this.velocidadeMax = velocidadeMax;
+	}
+	
+	
+	
+}

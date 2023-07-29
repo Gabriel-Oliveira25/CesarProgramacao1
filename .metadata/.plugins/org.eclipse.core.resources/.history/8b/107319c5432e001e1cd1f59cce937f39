@@ -1,0 +1,11 @@
+package CodigoDiscord;
+
+public class Carro extends MeioDeTransporte{
+	
+	private String marca;
+	private int capacidadeTanque;
+	
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package CodigoDiscord;
+
+import java.util.ArrayList;
+
+public class Relatorio {
+	
+	public void relatorio(ArrayList<MeioDeTransporte> meioTransportes) {
+		
+		
+		for (MeioDeTransporte meioDeTransporte : meioTransportes) {
+
+			System.out.println("NOME: " + meioDeTransporte.getNome());
+			System.out.println("VELOCIDADE: " + meioDeTransporte.getVelocidade());
+			
+			
+
+
+		}
+	}
+}

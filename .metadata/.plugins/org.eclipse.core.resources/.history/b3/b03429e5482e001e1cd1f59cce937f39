@@ -1,0 +1,64 @@
+package CodigoDiscord;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		ArrayList<MeioDeTransporte> meioTransportes = new ArrayList<>();
+		
+		MeioDeTransporte meioTrans;
+		
+		meioTrans = new Cavalo("Carpeado", 30, "Alazão");
+		meioTransportes.add(meioTrans);
+		
+		
+		
+		
+	
+		
+		
+				
+		MeioDeTransporte meioTrans1 = new Carro("Fiesta", 150, "Ford", 30);
+		
+		
+		Carro carro = (Carro)meioTrans1;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		meioTransportes.add(meioTrans);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		meioTrans = new CarroEletrico("Uno", 500, "Fiat", 0, 300000);
+		meioTransportes.add(meioTrans);
+		
+
+
+	}
+}

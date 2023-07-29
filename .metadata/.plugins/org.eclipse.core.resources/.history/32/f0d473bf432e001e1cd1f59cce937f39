@@ -1,0 +1,10 @@
+package CodigoDiscord;
+
+public class Cavalo extends MeioDeTransporte{
+	
+	private String raça;
+	private int velocidadeMax;
+	
+	
+	
+}

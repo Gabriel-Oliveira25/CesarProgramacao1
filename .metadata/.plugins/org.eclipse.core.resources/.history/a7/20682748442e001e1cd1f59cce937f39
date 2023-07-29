@@ -1,0 +1,8 @@
+package CodigoDiscord;
+
+public class CarroEletrico extends Carro{
+	private int capacidadeBateria;
+	
+	
+
+}

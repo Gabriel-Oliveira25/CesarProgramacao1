@@ -1,0 +1,7 @@
+package CodigoDiscord.classesAbstratas;
+
+public interface Locomover extends Comparable<Object>{
+	
+	
+	
+}
